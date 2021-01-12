@@ -1,0 +1,274 @@
+body {
+    background-color: #c1b4ac;
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.hidden {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+#menuknap {
+    display: inline-block;
+    font-size: 3rem;
+    color: #745a28;
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform.3s;
+    transform-origin: top left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    margin-top: -45px;
+    margin-left: 15px;
+
+}
+
+#menu a {
+    text-decoration: none;
+    color: #9d8454;
+
+}
+
+.footer {
+    padding: 10px 50px 10px;
+    background-color: #745a28;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+}
+
+.footer a {
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #e0d0b2;
+    line-height: 30%;
+}
+
+.footer h3 {
+    font-family: 'Staatliches', cursive;
+    color: #e0d0b2;
+}
+
+.footer h4 {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h3 {
+    font-family: 'Staatliches', cursive;
+    text-align: left;
+    margin-left: 1px;
+    color: #9d8454;
+}
+
+p {
+    color: #574c38;
+    font-family: 'Roboto', sans-serif;
+    line-height: 200%;
+}
+
+
+/*GRUNDLÆGGENDE UX____________________________-*/
+
+.ux_container {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.billede_tekst {
+    margin-left: 50px;
+}
+
+.ux_overskrift {
+    background-color: #c1b4ac;
+    font-family: 'Staatliches', cursive;
+    text-align: left;
+    margin-left: 30px;
+    color: #9d8454;
+}
+
+.ux_img_2 {
+    padding-top: 110px;
+    padding-left: 30px;
+}
+
+.ux_tekst_2 {
+    margin-left: 20px;
+
+}
+
+.ux_tekst_2 h3 {
+    background-color: #b0bcc4;
+
+}
+
+.ux_img_3 {
+    background-color: #afc1ce;
+    margin-top: -40px;
+}
+
+.ux_tekst_3 {
+    text-align: center;
+    font-size: 2rem;
+    background-color: #afc1ce;
+    padding-right: 20px;
+
+}
+
+.ux_tekst_4 {
+    margin-left: 20px;
+    font-size: 1.2rem;
+    margin-top: -7px;
+}
+
+.ux_tekst_4 h3 {
+    background-color: #b0bcc4;
+}
+
+.ux_tekst_4 p {
+    font-size: 0.9rem;
+}
+
+
+.ux_start_tekst {
+    margin-left: 20px;
+    padding-top: 50px;
+}
+
+.ux_start_tekst h3 {
+    background-color: #b0bcc4;
+
+}
+
+.ux_img_4 {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 5px;
+}
+
+.img_4_tekst {
+    margin-top: -70px;
+}
+
+
+
+@media (min-width:700px) {
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .ux_container {
+        grid-template-columns: 1fr 1fr;
+        margin-left: 40px;
+        margin-right: 80px;
+    }
+
+    .ux_tekst_4 {
+        font-size: 1rem;
+    }
+
+    .ux_start_tekst {
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+
+    .ux_start_tekst p {
+        line-height: 200%;
+    }
+
+
+    .ux_img_2 {
+        margin-bottom: -50px;
+    }
+
+    .ux_tekst_3 {
+        margin-top: -5px;
+    }
+
+    .ux_img_3 {
+        margin-top: -5px;
+    }
+
+    .ux_tekst_2 {
+        margin-left: 2px;
+    }
+}
+
+@media (min-width:1230px) {
+    .ux_container {
+        grid-template-columns: 1fr 1fr;
+        margin-left: 35px;
+        margin-right: 90px;
+    }
+
+    .ux_tekst_2 {
+        margin: 50px;
+
+    }
+
+    .ux_tekst_2 p {
+        line-height: 200%;
+
+    }
+
+    .ux_tekst_3 {
+        line-height: 100%;
+        margin-top: -100px;
+        padding-top: 120px;
+        padding-right: 80px;
+    }
+
+    .ux_start_tekst {
+        margin-left: 50px;
+    }
+
+    img {
+        width: 85%;
+        height: 85%;
+    }
+
+    .ux_img_3 {
+        margin-top: -100px;
+        margin-left: 50px;
+    }
+
+    .ux_overskrift {
+        margin-left: 53px;
+    }
+
+    .ux_tekst_4 {
+        margin-top: -15px;
+        margin-left: -10px;
+        font-size: 1.1rem;
+    }
+
+    .ux_img_4 {
+        padding-left: 100px;
+
+    }
+
+    .heatmap_tekst {
+        margin-left: 50px;
+        padding-bottom: 20px;
+    }
+
+    .style_tekst {
+    margin-left: 70px;
+}
+}

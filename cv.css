@@ -1,0 +1,820 @@
+body {
+    background-color: #c1b4ac;
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/*SOCIAL MEDIA LOGO________________-*/
+
+.icon-bar {
+    position: absolute;
+    padding-bottom: 40px;
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 2px;
+    color: white;
+    font-size: 15px;
+}
+
+.facebook {
+    background: #9b8a6a;
+    color: white;
+}
+
+.instagram {
+    background: #9b8a6a;
+    color: white;
+}
+
+.some_tekst {
+    margin-left: 25px;
+}
+
+.some_tekst_2 {
+    margin-left: 25px;
+    margin-top: 12px;
+}
+
+/*MENU + FOOTER________________________--*/
+
+.hidden {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+#menuknap {
+    display: inline-block;
+    font-size: 3rem;
+    color: #745a28;
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform.3s;
+    transform-origin: top left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    margin-top: -45px;
+    margin-left: 15px;
+
+}
+
+#menu a {
+    text-decoration: none;
+    color: #9d8454;
+}
+
+.footer {
+    padding: 10px 50px 10px;
+    background-color: #745a28;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+}
+
+.footer a {
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #e0d0b2;
+    line-height: 30%;
+}
+
+.footer h3 {
+    font-family: 'Staatliches', cursive;
+    color: #e0d0b2;
+}
+
+.footer h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*INDHOL______________________*/
+
+.cv_conatiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    background-color: #9b8a6a;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.navn {
+    color: #a06039;
+    font-family: 'Staatliches', cursive;
+    font-size: 2.5rem;
+    line-height: 30%;
+    margin-left: -32px;
+}
+
+h4 {
+    font-family: 'Staatliches', cursive;
+}
+
+.tekst_1 {
+    margin-left: -160px;
+}
+
+.tekst_1 p {
+    color: #574c38;
+    font-family: 'Roboto', sans-serif;
+    line-height: 180%;
+    font-size: 0.8rem;
+}
+
+.billede {
+    margin-bottom: 20px;
+    margin-left: -160px;
+}
+
+.kontakt {
+    color: #574c38;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    font-size: 0.7rem;
+}
+
+.some {
+    color: #574c38;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    font-size: 0.7rem;
+}
+
+.arbejdserfaring {
+    color: #574c38;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    font-size: 0.7rem;
+}
+
+@media (min-width:560px) {
+    .cv_conatiner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 50px;
+        background-color: #9b8a6a;
+        padding-right: 35px;
+        padding-left: 35px;
+        padding-top: 20px;
+    }
+
+    .navn {
+        color: #a06039;
+        font-family: 'Staatliches', cursive;
+        font-size: 3rem;
+        line-height: 30%;
+        margin-left: -32px;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (min-width:675px) {
+    .cv_conatiner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 50px;
+        background-color: #9b8a6a;
+        padding-right: 55px;
+        padding-left: 55px;
+        padding-top: 40px;
+    }
+
+    .navn p {
+        margin-left: 10px;
+    }
+}
+
+@media (min-width:725px) {
+    .cv_conatiner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 50px;
+        background-color: #9b8a6a;
+        padding-right: 65px;
+        padding-left: 65px;
+        padding-top: 40px;
+    }
+
+    .navn p {
+        margin-left: 5px;
+    }
+
+    .navn {
+        font-size: 3.2rem;
+        margin-left: -39px;
+    }
+}
+
+@media (min-width:800px){
+     .cv_conatiner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-bottom: 50px;
+        background-color: #9b8a6a;
+        padding-right: 75px;
+        padding-left: 75px;
+        padding-top: 40px;
+    }
+
+     .navn p {
+        margin-left: -40px;
+    }
+
+    .navn {
+        font-size: 4rem;
+        margin-left: -59px;
+    }
+}
+
+@media (min-width:910px){
+      .cv_conatiner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 90px;
+        margin-right: 90px;
+        margin-bottom: 50px;
+        background-color: #9b8a6a;
+        padding-right: 75px;
+        padding-left: 75px;
+        padding-top: 40px;
+    }
+
+    img {
+        width: 90%;
+        height: 95%;
+        margin-left: 30px;
+    }
+
+     .navn {
+        font-size: 4rem;
+        margin-left: -59px;
+    }
+
+    .tekst_1 {
+        margin-left: -130px;
+        padding-bottom: 25px;
+    }
+
+
+}
+
+@media (min-width:1040px){
+     .cv_conatiner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 120px;
+        margin-right: 120px;
+        margin-bottom: 50px;
+        background-color: #9b8a6a;
+        padding-right: 85px;
+        padding-left: 85px;
+        padding-top: 40px;
+    }
+
+     .navn p{
+        font-size: 4.3rem;
+        margin-left: -59px;
+    }
+}
+
+@media (min-width:1115px){
+     .cv_conatiner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 140px;
+        margin-right: 140px;
+        margin-bottom: 50px;
+        background-color: #9b8a6a;
+        padding-right: 90px;
+        padding-left: 90px;
+        padding-top: 40px;
+    }
+
+    .navn p{
+        font-size: 4.5rem;
+        margin-left: -70px;
+    }
+}
+
+@media (min-width:1250px){
+     .cv_conatiner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 170px;
+        margin-right: 170px;
+        margin-bottom: 50px;
+        background-color: #9b8a6a;
+        padding-right: 100px;
+        padding-left: 130px;
+        padding-top: 40px;
+    }
+
+    img {
+        width: 75%;
+        height: 90%;
+        margin-left: 80px;
+        margin-top: 10px;
+    }
+
+    .tekst_1 {
+        margin-left: -80px;
+        margin-right: 40px;
+    }
+
+     .navn p{
+        font-size: 4.5rem;
+        margin-left: -55px;
+    }
+}
+
+/*
+@media (min-width:350px) {
+    .cv_conatiner {
+        grid-template-columns: 1fr 1fr;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .navn {
+        font-size: 3rem;
+        line-height: 5%;
+        padding-top: 100px;
+        margin-left: -70px;
+    }
+
+    img {
+        width: 90%;
+        height: 80%;
+        margin-left: 30px;
+    }
+
+    .billede {
+        margin-top: 10px;
+        margin-left: -170px;
+    }
+
+    .tekst_1 p {
+        margin-left: -130px;
+        font-size: 0.7rem;
+    }
+
+
+    .container {
+        margin-top: 1px;
+    }
+
+    .kontakt {
+        padding-bottom: 95px;
+    }
+
+    .arbejdserfaring {
+        padding-top: 95px;
+    }
+}
+*/
+
+/*
+@media (min-width:432px) {
+
+    .cv_conatiner {
+        grid-template-columns: 1fr 1fr;
+        margin-left: 5px;
+        margin-right: 25px;
+    }
+
+    .container {
+        margin-top: -40px;
+        margin-left: 11px;
+    }
+
+    .kontakt {
+        padding-bottom: 10px;
+    }
+
+    .arbejdserfaring {
+        padding-top: 5px;
+    }
+
+    .tekst_1 p {
+        margin-left: -135px;
+    }
+
+    .tekst_1 {
+        margin-top: -40px;
+        margin-right: 5px;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        margin-left: 15px;
+    }
+}
+
+@media (min-width:498px) {
+
+    .cv_conatiner {
+        grid-template-columns: 1fr 1fr;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .container {
+        margin-top: 1px;
+        margin-left: 16px;
+        margin-top: -28px;
+    }
+
+    .kontakt {
+        padding-bottom: 10px;
+    }
+
+    .arbejdserfaring {
+        padding-top: 1px;
+    }
+
+    .tekst_1 p {
+        margin-right: -25px;
+        line-height: 200%;
+    }
+
+    .tekst_1 {
+        margin-right: 25px;
+        margin-left: 50px;
+        margin-top: -30px;
+    }
+
+    .navn {
+        margin-left: -65px;
+    }
+
+    img {
+        width: 85%;
+        height: 85%;
+        margin-left: 55px;
+        margin-top: 28px;
+    }
+
+}
+
+@media (min-width:600px) {
+    .cv_conatiner {
+        grid-template-columns: 1fr 1fr;
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+
+    img {
+        width: 86%;
+        height: 86%;
+        margin-top: 33px;
+    }
+
+    .navn {
+        font-size: 5rem;
+        line-height: 5%;
+        padding-top: 100px;
+        margin-left: -90px;
+    }
+
+    .container {
+        margin-top: -19px;
+        margin-left: 12px;
+    }
+
+    .kontakt {
+        padding-bottom: 20px;
+    }
+
+    .arbejdserfaring {
+        padding-top: 3px;
+    }
+
+    .tekst_1 {
+        margin-left: 38px;
+        margin-right: 0px;
+        margin-top: -23px;
+    }
+
+    .tekst_1 p {
+        line-height: 230%;
+    }
+}
+
+@media (min-width:700px) {
+    .cv_conatiner {
+        grid-template-columns: 1fr 1fr;
+        margin-left: 50px;
+        margin-right: 45px;
+    }
+
+    .navn {
+        font-size: 5.5rem;
+        line-height: 5%;
+    }
+
+    img {
+        width: 90%;
+        height: 90%;
+        margin-top: 5px;
+    }
+
+    .kontakt {
+        padding-top: 21px;
+    }
+
+    .some {
+        margin-top: -12px;
+    }
+
+    .tekst_1 {
+        margin-bottom: 20px;
+        margin-top: -36px;
+        margin-right: 20px;
+    }
+
+    .container {
+        margin-top: -51px;
+        margin-left: 17px;
+    }
+
+    .arbejdserfaring {
+        padding-top: 1px;
+    }
+}
+
+
+@media (min-width:717px) {
+    .cv_conatiner {
+        grid-template-columns: 1fr 1fr;
+        margin-left: 50px;
+        margin-right: 45px;
+    }
+
+    .container {
+        margin-left: 17px;
+        margin-top: -31px;
+    }
+
+    .kontakt {
+        padding-bottom: 10px;
+    }
+
+    .arbejdserfaring {
+        padding-top: 5px;
+    }
+
+    .tekst_1 p {
+        line-height: 255%;
+    }
+
+    .tekst_1 {
+        margin-top: -30px;
+    }
+
+    img {
+        margin-top: 7px;
+    }
+
+}
+
+@media (min-width:800px) {
+    .cv_conatiner {
+        grid-template-columns: 1fr 1fr;
+        margin-left: 50px;
+        margin-right: 45px;
+    }
+
+    .container {
+        margin-top: -15px;
+        margin-left: 22px;
+    }
+
+    .navn {
+        font-size: 6rem;
+        line-height: 5%;
+        margin-top: 20px;
+    }
+
+    .kontakt {
+        padding-bottom: 20px;
+    }
+
+    .arbejdserfaring {
+        padding-top: 8px;
+    }
+
+    .tekst_1 p {
+        line-height: 275%;
+    }
+
+    .tekst_1 {
+        margin-top: -15px;
+        margin-right: 15px;
+    }
+
+    img {
+        margin-top: -1px;
+    }
+
+}
+
+@media (min-width:835px) {
+    .cv_conatiner {
+        grid-template-columns: 1fr 1fr;
+        margin-left: 50px;
+        margin-right: 55px;
+    }
+
+    .navn {
+        margin-top: 32px;
+        font-size: 6.5rem;
+        line-height: 5%;
+    }
+
+    .container {
+        margin-top: -21px;
+        margin-left: 27px;
+    }
+
+    .arbejdserfaring {
+        padding-top: 3px;
+    }
+
+    .tekst_1 {
+        margin-right: 35px;
+        margin-top: -20px;
+    }
+
+    img {
+        margin-top: -4px;
+    }
+
+}
+
+@media (min-width:895px) {
+    .cv_conatiner {
+        grid-template-columns: 1fr 1fr;
+        margin-left: 60px;
+        margin-right: 80px;
+    }
+
+    .navn {
+        margin-top: 58px;
+        font-size: 6.5rem;
+        line-height: 5%;
+    }
+
+    .container {
+        margin-top: -16px;
+        margin-left: 27px;
+    }
+
+    .kontakt {
+        padding-bottom: 25px;
+    }
+
+    .arbejdserfaring {
+        padding-top: 15px;
+    }
+
+    .tekst_1 p {
+        line-height: 290%;
+    }
+
+    .tekst_1 {
+        margin-right: 30px;
+        margin-top: -15px;
+    }
+
+    img {
+        margin-top: -25px;
+    }
+}
+
+@media (min-width:995px) {
+    .cv_conatiner {
+        grid-template-columns: 1fr 1fr;
+        margin-left: 50px;
+        margin-right: 35px;
+    }
+
+    .navn {
+        margin-top: 19px;
+        font-size: 6.8rem;
+        line-height: 5%;
+    }
+
+    img {
+        width: 88%;
+        height: 90%;
+    }
+
+    .container {
+        margin-top: -58px;
+        margin-left: 31px;
+    }
+
+    .tekst_1 {
+        margin-right: 65px;
+        margin-top: -60px;
+    }
+}
+
+@media (min-width:1000px) {
+    .cv_conatiner {
+        grid-template-columns: 1fr 1fr;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .navn {
+        margin-top: 60px;
+        font-size: 6.8rem;
+        line-height: 5%;
+    }
+
+    img {
+        height: 90%;
+        width: 90%;
+    }
+
+    .container {
+        margin-top: -33px;
+        margin-left: 30px;
+    }
+
+    .kontakt {
+        padding-bottom: 16px;
+    }
+
+    .arbejdserfaring {
+        padding-top: 2px;
+    }
+
+    .tekst_1 p {
+        line-height: 300%;
+    }
+
+    .tekst_1 {
+        margin-right: 55px;
+        margin-top: -35px;
+    }
+
+}
+
+@media (min-width:1155px) {
+    .cv_conatiner {
+        grid-template-columns: 1fr 1fr;
+        margin-left: 150px;
+        margin-right: 140px;
+    }
+
+    .container {
+        margin-top: -130px;
+    }
+
+    .navn {
+        margin-top: 50px;
+        font-size: 6.8rem;
+        line-height: 5%;
+    }
+
+    .tekst_1 p {
+        line-height: 280%;
+    }
+
+    .tekst_1 {
+        margin-top: -115px;
+        margin-right: 135px;
+
+    }
+
+    img {
+        width: 85%;
+        height: 85%;
+        margin-top: -38px;
+    }
+}
+*/

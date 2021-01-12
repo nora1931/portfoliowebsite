@@ -1,0 +1,318 @@
+body {
+    background-color: #c1b4ac;
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*HEADER SITE CSS________________________________________-*/
+
+.hidden {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+#menuknap {
+    display: inline-block;
+    font-size: 3rem;
+    color: #745a28;
+    overflow: visible;
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform.3s;
+    transform-origin: top left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    margin-top: -45px;
+    margin-left: 15px;
+
+}
+
+#menu a {
+    text-decoration: none;
+    color: #9d8454;
+}
+
+#baggrunds_video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.first_section {
+    text-align: center;
+    color: #a79b86;
+    font-family: 'Staatliches', cursive;
+    font-size: 4rem;
+    margin-top: 200px;
+}
+
+.first_section h3 {
+    font-size: 1.7rem;
+    margin-top: -90px;
+}
+
+.footer {
+    padding: 10px 50px 10px;
+    background-color: #745a28;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+}
+
+.footer a {
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #e0d0b2;
+    line-height: 30%;
+}
+
+.footer h3 {
+    font-family: 'Staatliches', cursive;
+    color: #e0d0b2;
+}
+
+.footer h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*
+.icon-bar {
+    position: absolute;
+    padding-bottom: 40px;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+}
+*/
+
+/*
+.facebook {
+  background: #000000;
+  color: white;
+}
+
+.instagram {
+  background: #000000;
+  color: white;
+}
+*/
+
+@media (min-width:50px) {
+    .billede {
+        background-image: url(forside/mobil_forside.png);
+    }
+}
+
+@media (min-width:400px) {
+    .billede {
+        background-image: url(forside/forside_web.png);
+    }
+}
+
+
+/*PORTFOLIO SITE CSS________________________________________-*/
+
+.overskrift {
+    background-color: #c1b4ac;
+    font-family: 'Staatliches', cursive;
+    text-align: left;
+    margin-right: 40px;
+    margin-left: 40px;
+    color: #9d8454;
+}
+
+.portfolio_container {
+    margin-left: 40px;
+    margin-right: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 40px;
+    grid-row-gap: 160px;
+
+}
+
+.portfolio_container a {
+    text-decoration: none;
+}
+
+.web_container {
+    height: 60vh;
+    min-height: 50px;
+    width: 100%;
+}
+
+.web_billede {
+    background-image: url(billeder/web_portfolio.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.web_billede:hover {
+    background-image: url(billeder/web_hover.jpg);
+}
+
+.web_description {
+    background-color: #717b62;
+    font-family: 'Staatliches', cursive;
+    padding: 16px 8px;
+    text-align: center;
+    text-decoration: none;
+    color: #e0d0b2;
+
+}
+
+.ux_container {
+    height: 60vh;
+    min-height: 300px;
+    width: 100%;
+}
+
+.ux_billede {
+    background-image: url(billeder/ux_portfolio.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.ux_billede:hover {
+    background-image: url(billeder/ux_hover.jpg);
+}
+
+.ux_description {
+    background-color: #717b62;
+    font-family: 'Staatliches', cursive;
+    padding: 16px 8px;
+    text-align: center;
+    color: #e0d0b2;
+
+}
+
+.animation_container {
+    height: 60vh;
+    min-height: 300px;
+    width: 100%;
+}
+
+.animation_billede {
+    background-image: url(billeder/animation_portfolio.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.animation_billede:hover {
+    background-image: url(billeder/animation_hover.jpg);
+}
+
+.animation_description {
+    background-color: #717b62;
+    font-family: 'Staatliches', cursive;
+    padding: 16px 8px;
+    text-align: center;
+    color: #e0d0b2;
+
+}
+
+.indhold_container {
+    height: 60vh;
+    min-height: 300px;
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.indhold_billede {
+    background-image: url(billeder/indhold_portfolio.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.indhold_billede:hover {
+    background-image: url(billeder/indhold_hover.jpg);
+}
+
+.indhold_description {
+    background-color: #717b62;
+    font-family: 'Staatliches', cursive;
+    padding: 16px 8px;
+    text-align: center;
+    color: #e0d0b2;
+
+}
+
+@media (min-width:690px) {
+    .portfolio_container {
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 160px;
+
+    }
+}
+
+@media (min-width:950px) {
+    .portfolio_container {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 160px;
+        margin-left: 100px;
+        margin-right: -120px;
+        margin-bottom: 80px;
+    }
+
+    .overskrift {
+        background-color: #c1b4ac;
+        font-family: 'Staatliches', cursive;
+        text-align: left;
+        margin-right: 40px;
+        margin-left: 100px;
+        color: #9d8454;
+    }
+
+    .web_container {
+        height: 60vh;
+        min-height: 50px;
+        width: 70%;
+    }
+
+    .ux_container {
+        height: 60vh;
+        min-height: 300px;
+        width: 70%;
+    }
+
+    .animation_container {
+        height: 60vh;
+        min-height: 300px;
+        width: 70%;
+    }
+
+    .indhold_container {
+        height: 60vh;
+        min-height: 300px;
+        width: 70%;
+        margin-bottom: 100px;
+    }
+}
+
+/*CV SITE CSS________________________________________-*/
